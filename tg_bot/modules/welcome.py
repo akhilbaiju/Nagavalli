@@ -93,7 +93,7 @@ def del_joined(bot: Bot, update: Update, args: List[str]) -> str:
 
     if args[0].lower() in ("on", "yes"):
         sql.set_del_joined(str(chat.id), True)
-        update.effective_message.reply_text("Join ആയ മെസ്സേജ് ഞാൻ ഡിലീറ്റ് ചെയ്യാം!")
+        update.effective_message.reply_text("Join മെസ്സേജ് ഞാൻ ഡിലീറ്റ് ചെയ്യാം!")
         return "<b>{}:</b>" \
                "\n#CLEAN_SERVICE_MESSAGE" \
                "\n<b>Admin:</b> {}" \
