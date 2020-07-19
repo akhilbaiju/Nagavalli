@@ -425,7 +425,7 @@ def clean_welcome(bot: Bot, update: Update, args: List[str]) -> str:
 
     if args[0].lower() in ("on", "yes"):
         sql.set_clean_welcome(str(chat.id), True)
-        update.effective_message.reply_text("OK, അപ്പൊ പഴയ welcome message ഒക്കെ ഡിലീറ്റ് ചെയ്യാൻ ശ്രമിക്കാം! 👍")
+        update.effective_message.reply_text("OK, അപ്പൊ പഴയ welcome message ഒക്കെ ഡിലീറ്റ് ചെയ്യാm 👍")
         return "<b>{}:</b>" \
                "\n#CLEAN_WELCOME" \
                "\n<b>Admin:</b> {}" \
