@@ -18,9 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-ഹായ് {}, എന്റെ പേര് {}! എന്നെ ഉപയോഗിക്കേണ്ടത് എങ്ങനെ ആണെന്നുള്ളതിൽ എന്തേലും സംശയം ഉണ്ടെങ്കിൽ /help കൊടുത്താൽ മതിയാകും... 
-എന്റെ ന്യൂ ഫീച്ചേർസ് ചാനലിൽ @MarieChechi ഇടുന്നതായിരിക്കും. സംശയങ്ങൾക്ക് @InFoTelGroup എന്ന ഗ്രൂപ്പിൽ വരാവുന്നതാണ്.....
-എന്നെ നിർമിച്ചത് @akhilbaiju ആണ് 
+ഹായ് {}, എന്റെ പേര് {}! @en_angel_risen nte ആവിശ്യത്തിനായി എന്നെ  @akhilbaiju നിർമിച്ചത് ആണ് 
 
 
 
@@ -28,9 +26,6 @@ PM_START_TEXT = """
 
 HELP_STRINGS = """
 നമസ്കാരം ! എന്റെ പേര് *{}*.
-
-
-
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
