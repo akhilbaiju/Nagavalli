@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-ഹായ് {}, എന്റെ പേര് {}! @en_angel_risen nte ആവിശ്യത്തിനായി എന്നെ  @akhilbaiju നിർമിച്ചത് ആണ് 
+ഹായ് {}, എന്റെ പേര് {}! Honey Bee Movies nte ആവിശ്യത്തിനായി എന്നെ  @akhilbaiju നിർമിച്ചത് ആണ് 
 
 
 
