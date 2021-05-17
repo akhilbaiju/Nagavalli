@@ -14,4 +14,13 @@
 [Telegram Channel link](https://t.mt/honeybeemovies)
 
 
+Note  : Dont deploy directly , fork this repo , edit and deploy. i used my name in many places , remove it
+
+</br>
+</br>
+<p align="center">
+  honeybeeindustries
+</p>
+
+
 
